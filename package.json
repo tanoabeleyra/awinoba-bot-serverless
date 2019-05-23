@@ -1,0 +1,42 @@
+{
+  "name": "awinoba-bot-serverless",
+  "version": "1.0.0",
+  "description": "Telegram bot for the Awinoba spot",
+  "main": "webhook.js",
+  "scripts": {
+    "serve": "netlify-lambda serve endpoints/",
+    "build": "netlify-lambda build endpoints/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanoabeleyra/awinoba-bot.git"
+  },
+  "keywords": [
+    "kitesurf",
+    "telegram",
+    "bot"
+  ],
+  "author": "Tano Abeleyra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanoabeleyra/awinoba-bot/issues"
+  },
+  "homepage": "https://github.com/tanoabeleyra/awinoba-bot#readme",
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "netlify-lambda": "^1.4.13",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.11.0"
+  },
+  "dependencies": {
+    "date-fns": "^1.30.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
