@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/tanoabeleyra/awinoba-bot#readme",
   "devDependencies": {
-    "husky": "2.3.0",
+    "husky": "2.4.0",
     "netlify-lambda": "1.4.13",
     "prettier": "1.17.1",
     "pretty-quick": "1.11.0"
