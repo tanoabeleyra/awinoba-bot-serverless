@@ -1,3 +1,5 @@
 [build]
   command = "netlify-lambda build endpoints/"
   functions = "functions"
+[template.environment]
+  BOT_TOKEN="Set your Telegram bot token"
